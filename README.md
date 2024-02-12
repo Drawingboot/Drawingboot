@@ -1,6 +1,5 @@
-git clone https://gitlab.com/qemu-project/qemu.git
-cd qemu
-git submodule init
-git submodule update --recursive
+wget https://download.qemu.org/qemu-8.2.1.tar.xz
+tar xvJf qemu-8.2.1.tar.xz
+cd qemu-8.2.1
 ./configure
 make
